@@ -4,9 +4,9 @@
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
-
+  
   <default remote="couchbase" revision="master" />
-
+  
   <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="couchbase-priv" revision="e19c4bb1f149621725898972942a8890448e1548" upstream="spock" />
   <project groups="kv" name="benchmark" remote="couchbasedeps" revision="9e3465560240ffb242b50a47cb7f19251a12ee42" />
   <project name="bitset" path="godeps/src/github.com/willf/bitset" remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4" />
